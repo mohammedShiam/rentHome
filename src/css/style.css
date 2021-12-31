@@ -1,6 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
-
+@import url('./animation.css');
 body{
 	background-color: #f2f2f2;
 	/* font-family: 'Montserrat', sans-serif; */
@@ -95,6 +95,43 @@ ul.social-share li a.twitter:hover {
     background: transparent;
 }
 /* Home Section */
+.header-image{
+	width: 100%;
+	height: 420px;
+	background-color: #00acee;
+	animation: 2s fromBottom ease-in;
+
+}
+section.home-section{
+	margin-top: 3.5rem;
+	position: relative;
+	top:-18rem;
+}
+section.home-section .row{
+	background: rgb(228, 226, 226);
+	animation: 1s fromLeft ease-in;
+}
+
+/* .btn-header{
+	animation: 1s fromBottom ease-in;
+} */
+.header-border {
+	width: 298px;
+	height: 302px;
+	border-radius: 44%;
+	background: #7affe0;
+	margin-left: -6rem;
+	margin-bottom: -5rem;
+	transform: rotate(-43deg);
+	margin-top: -12rem;
+}
+
+section.quick-search {
+	width: 100%;
+	height: 520px;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/hader-image02.jpg');
+	background-size: cover;
+}
 #home-section{
 	position:relative;
 	background-size:cover;

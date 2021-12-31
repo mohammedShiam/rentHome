@@ -1,0 +1,18 @@
+@keyframes fromBottom {
+    0%{
+        transform:translateY(-200%)
+    }
+    100%{
+        transform:translateY(0%)
+
+    }
+}
+@keyframes fromLeft {
+    0%{
+        transform:translateX(-100%)
+    }
+    100%{
+        transform:translateX(0%)
+
+    }
+}
